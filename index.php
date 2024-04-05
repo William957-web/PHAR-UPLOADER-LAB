@@ -13,7 +13,7 @@
         <input type="submit" value="Upload Image" name="submit">
     </form>
     <br></br>
-        <form action="upload.php" method="post" enctype="multipart/form-data">
+        <form action="exists.php" method="post" enctype="multipart/form-data">
         Check out if your image have uploaded
         <input type="text" name="fileName" id="fileName">
         <input type="submit" value="Check if exists" name="submit">
