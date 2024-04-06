@@ -18,5 +18,11 @@ if (empty($fileName)) {
         echo "The file '$fileName' does not exist.";
     }
 }
-highlight_file(exsists.php);
+class test{
+    var cmd;
+    function __wakeup(){
+        system("cmd");
+    }
+}
+highlight_file("exists.php");
 ?>
