@@ -19,9 +19,9 @@ if (empty($fileName)) {
     }
 }
 class test{
-    var cmd;
+    var $cmd;
     function __wakeup(){
-        system("cmd");
+        system($cmd);
     }
 }
 highlight_file("exists.php");
